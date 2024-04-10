@@ -161,3 +161,9 @@ cython_debug/
 
 # data
 data/
+
+# assets
+assets/
+
+# docs
+docs/

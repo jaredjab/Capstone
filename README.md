@@ -2,21 +2,20 @@
 - Nashville Software School | Data Analytics - (Cohort DDA12)
 ---
 ## Summary
-- This project explores how specific characteristics of national parks relate to their engagement, both recreationally and non-recreationally. I collected a vast array of National Park Service (NPS) data from their public portal, and used Python, Excel, Google Slides, and Tableau to clean, analyze, visualize, and present my findings. Additional general information was sourced via web-scraping Wikipedia and downloading climate normals from the National Oceanic and Atmospheric Administration (NOAA) The characteristics I have chosen to dive into are a park's location, area, age, and biodiversity.
+- This project explores how specific characteristics of national parks relate to their recreational visitation. I collected a vast array of National Park Service (NPS) data from their public portal, and used Python, Excel, Google Slides, and Tableau to clean, analyze, visualize, and present my findings. Additional general information was sourced via web-scraping Wikipedia and downloading climate normals from the National Oceanic and Atmospheric Administration (NOAA). This project focuses on time, biodiversity, and climate of the national parks.
 
 ## Motivation
-- I have always been very interested in natural sciences. That interest is usually directed towards astronomy, but over time I am becoming increasingly interested in nature here on Earth. Many of my favorite memories are connected to spectacular places in national parks. I have flown in a small plane over Denali and landed on a glacier in the mountain range, white-water rafted down many rivers throughout Appalachia, and traversed through Death Valley. There are no better places to feel more alive! National parks are amazing places, and I am gladly taking advantage of the opportunity to combine my passion for them with my professional development as a data analyst.
+- I have always been very interested in natural sciences. That interest is usually directed towards astronomy, but over time I am becoming increasingly interested in nature here on Earth. Many of my favorite memories are connected to spectacular places in national parks. There are no better places to feel more alive! National parks are amazing places, and I am gladly taking advantage of the opportunity to combine my passion for them with my professional development as a data analyst.
 
 ## Data Question
-- How does time, climate, acreage, and biodiversity relate to visitation in national parks?
+- How does time, biodiversity, and climate relate to recreational visitation in national parks?
 
 ## Minimim Viable Product (MVP)
 - Slides Presentation
     - Analysis of national park's visitation
-        - Over time
+        - As related to time
         - As related to climate
         - As related to biodiversity
-        - As related to acreage
 
 ## Known Issues and Challenges
 - Climate data
@@ -26,13 +25,15 @@
     - Snow data wasn't collected on many weather stations. Some obviously never get snow, others were missing the sensor.
         - Excluded Snow Data from the analysis
 - NPS Data
-    - Visitor Use
-        - I spent a considerable amount of time unnecessarily manually cleaning excel sheets of data
+    - Visitation
+        - I spent a considerable amount of time manually cleaning excel sheets of data unnecessarily
             - I later realized there was a separate query building tool in the data portal that I used to create the exact CSV files I needed
     - Entrance Fees
         - This data was not readily downloadable or web-scrapable without spending a full day on it, so I manually entered the information; It wasn't much.
             - Unfortunately this information did not yield any interesting findings, and was ultimately excluded for time.
-    - Species Data
+    - Acreage
+        - This data had a some interesting facts, such as Alaska having more than half of all national park land, but ultimately did not lead to significant findings. It was removed from the presentation for time.
+    - Biodiversity
         - Certain parks lacked any species data, and were excluded from biodiversity-related analysis.
 
 ## Data Sources

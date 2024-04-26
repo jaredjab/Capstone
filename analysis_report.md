@@ -18,7 +18,11 @@
 
 **Excluded Variables**
 
-    Acreage and Entrance Fees: These variables were analyzed but did not show significant correlations with visitation patterns and were thus excluded from the main analysis. However, it was noted that Alaska houses over half of the total national park acreage.
+Acreage and Entrance Fees: These variables were analyzed but did not show significant correlations with visitation patterns and were thus excluded from the main analysis. However, it was noted that Alaska houses over half of the total national park acreage.
+
+**Inclusion of Outliers**
+
+In the analysis, outliers were identified but included in the final dataset as their exclusion did not significantly alter the observed relationships. By retaining these outlying data points, the analysis benefits from a broader dataset, providing a more comprehensive view of national parks' visitation patterns. This approach ensures that the conclusions drawn are robust and reflective of the entire range of national parks, including those with unique or extreme characteristics, and resulting in a more comprehensive understanding of the topic.
 
 **Conclusions and Future Research**
 

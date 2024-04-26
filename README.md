@@ -1,4 +1,5 @@
-# National Parks Capstone Project
+![alt text](https://github.com/jaredjab/Capstone/blob/main/thumbnail.png?raw=true)
+---
 - Nashville Software School | Data Analytics - (Cohort DDA12)
 ---
 ## Summary

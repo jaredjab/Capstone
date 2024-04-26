@@ -5,6 +5,9 @@
 ## Summary
 - This project explores how specific characteristics of national parks relate to their recreational visitation. I collected a vast array of National Park Service (NPS) data from their IRMA data portal, and used Python, Excel, Google Slides, and Tableau to clean, analyze, visualize, and present my findings. Additional general information was sourced via web-scraping Wikipedia and the National Oceanic and Atmospheric Administration (NOAA) climate normals query tool. This project focuses on time, biodiversity, and climate of the national parks.
 
+## How to view
+- The presentation slides are available in the repository as a pdf, and to supplement my verbal presentation and explanation, an analysis report is also included.
+
 ## Motivation
 - I have always been very interested in natural sciences. That interest is usually directed towards astronomy, but over time I am becoming increasingly interested in nature here on Earth. Many of my favorite memories are connected to spectacular places in national parks. There are no better places to feel more alive! National parks are amazing places, and I am gladly taking advantage of the opportunity to combine my passion for them with my professional development as a data analyst.
 

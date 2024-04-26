@@ -2,7 +2,7 @@
 - Nashville Software School | Data Analytics - (Cohort DDA12)
 ---
 ## Summary
-- This project explores how specific characteristics of national parks relate to their recreational visitation. I collected a vast array of National Park Service (NPS) data from their public portal, and used Python, Excel, Google Slides, and Tableau to clean, analyze, visualize, and present my findings. Additional general information was sourced via web-scraping Wikipedia and downloading climate normals from the National Oceanic and Atmospheric Administration (NOAA). This project focuses on time, biodiversity, and climate of the national parks.
+- This project explores how specific characteristics of national parks relate to their recreational visitation. I collected a vast array of National Park Service (NPS) data from their IRMA data portal, and used Python, Excel, Google Slides, and Tableau to clean, analyze, visualize, and present my findings. Additional general information was sourced via web-scraping Wikipedia and the National Oceanic and Atmospheric Administration (NOAA) climate normals query tool. This project focuses on time, biodiversity, and climate of the national parks.
 
 ## Motivation
 - I have always been very interested in natural sciences. That interest is usually directed towards astronomy, but over time I am becoming increasingly interested in nature here on Earth. Many of my favorite memories are connected to spectacular places in national parks. There are no better places to feel more alive! National parks are amazing places, and I am gladly taking advantage of the opportunity to combine my passion for them with my professional development as a data analyst.
@@ -19,22 +19,19 @@
 
 ## Known Issues and Challenges
 - Climate data
-    - Many parks did not have a weather station with both temperature and precipitation data; some had no station at all.
-        - For these parks, I located the nearest weather station, still easily representative of the local climate, and used that station's data.
-        - This data collection had to be done manually, one park at a time, then cleaned and merged.
-    - Snow data wasn't collected on many weather stations. Some obviously never get snow, others were missing the sensor.
-        - Excluded Snow Data from the analysis
+    - Many parks did not have a weather station with both temperature and precipitation data; some had no station at all. For these parks, I located the nearest weather station, still easily representative of the local climate, and used that station's data. This data collection had to be done manually, one park at a time, but I was able to automate the cleaning and merge the data easily.
+    - Snow data wasn't collected on many weather stations. Some obviously never get snow, others do but were missing the sensor. Snow data was excluded from the analysis
 - NPS Data
     - Visitation
-        - I spent a considerable amount of time manually cleaning excel sheets of data unnecessarily
-            - I later realized there was a separate query building tool in the data portal that I used to create the exact CSV files I needed
+        - I spent a considerable amount of time manually cleaning excel sheets of data unnecessarily, and later realized there was a separate query building tool in the data portal that I used to create the exact CSV files I needed. I learned to focus more time on understanding an unfamiliar database fully before beginning work with it.
     - Entrance Fees
-        - This data was not readily downloadable or web-scrapable without spending a full day on it, so I manually entered the information; It wasn't much.
-            - Unfortunately this information did not yield any interesting findings, and was ultimately excluded for time.
+        - This data was not readily downloadable or web-scrapable without spending a full day on it, so I manually entered the information over about 15 minutes. I believe this was the right choice, and prioritized meeting the deadline without overcomplicating things. I am here to learn, but a deadline is a deadline, and the juice wasn’t worth the squeeze.
+        - Unfortunately this information did not yield any significant findings, and was ultimately excluded for time.
     - Acreage
-        - This data had a some interesting facts, such as Alaska having more than half of all national park land, but ultimately did not lead to significant findings. It was removed from the presentation for time.
+        - This data had a some interesting facts, such as Alaska having more than half of all national park land, but ultimately did not lead to significant findings. It was excluded from the presentation for time.
     - Biodiversity
-        - Certain parks lacked any species data, and were excluded from biodiversity-related analysis.
+        - A few national parks lacked any species data, and were excluded from biodiversity-related analysis.
+
 
 ## Data Sources
 - **National Park Service** (Data Portals)
